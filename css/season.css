@@ -1,0 +1,396 @@
+/**global style**/
+html{
+    background-color: #16163f;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**header-h1**/
+.header{
+    max-width: 1320px;
+    display: flex;
+    align-items: center;
+    color: khaki;
+    padding-top: 20px;
+    margin: 0 100px;
+}
+
+.header-div{
+    color: khaki;
+    padding-top: 20px;
+    margin-right: 410px;
+}
+
+.header-h1{
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+}
+
+/**header-p**/
+.header-div2{
+    color: khaki;
+    padding-top: 10px;
+    margin-right: 260px;
+}
+
+.header-p{
+    text-align: center;
+    font-family: Microsoft Yahei;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+/**header-nav**/
+.header-nav{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.header-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-language{
+    list-style: none;
+    margin-right: 5px;
+}
+
+.nav-ll{
+    display: block;
+    font-size: 20px;
+    color: khaki;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-ll:hover{
+    color: lemonchiffon;
+}
+
+.nav-ls{
+    display: none;
+    position: absolute;
+    background-color: #262057;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.nav-language:hover .nav-ls{
+    display: block;
+}
+
+/**icon**/
+.search{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    object-fit: contain;
+    padding-right: 10px;
+    margin: 35px 0px 18px 0px;
+    border-right: 1px solid khaki;
+}
+
+.search:hover{
+    width: 55px;
+    height: 55px;
+}
+
+.login{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    object-fit: contain;
+    margin: 35px 0px 18px 10px;
+}
+
+.login:hover{
+    width: 45px;
+    height: 45px;
+}
+
+/**nav**/
+.nav{
+    width: 1320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 20px 100px 20px 100px;
+    background-color: #162564;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    font-family: Microsoft Yahei;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 90px 0 90px;
+    margin-bottom: 11px;
+    margin-right: 5px;
+}
+
+.nav-subitem{
+    display: flex;
+    align-items: center;
+    font-family: Microsoft Yahei;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 30px 0 30px;
+    margin-bottom: 11px;
+    margin-right: 5px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: khaki;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-link:hover{
+    color: lemonchiffon;   
+}
+
+.nav-sublist{
+    display: none;
+    position: absolute;
+    background-color: #262057;
+    margin: 0;
+    padding: 0;
+    top: 200px;
+    left: 465px;
+    z-index: 1;
+}
+
+.nav-item:hover .nav-sublist{
+    display: block;
+}
+
+/**article**/
+.article{
+    margin-left: 100px;
+}
+
+.article-p1{
+    font-family: Microsoft Yahei;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+    color: khaki;
+    margin-bottom: -10px;
+    letter-spacing: 1px;
+}
+
+.article-p2{
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: flex-start;
+    color: khaki;
+    letter-spacing: 1px;
+}
+
+/**aside**/
+.aside-div{
+    display: flex;
+    margin-top: 50px;
+}
+
+.aside-dd{
+    width: 600px;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+    font-weight: 300;
+    color: khaki;
+    letter-spacing: 1px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+}
+
+.aside-p1{
+    font-family: Microsoft Yahei;
+    font-size: 27px;
+    font-weight: 300;
+    color: khaki;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    border-bottom: 4px solid blanchedalmond;
+}
+
+.aside-p2{
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+    font-weight: 300;
+    color: linen;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+.aside-a{
+    text-decoration: none;
+}
+
+.aside-p3{
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+    font-weight: 300;
+    color: khaki;
+    letter-spacing: 1px;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+
+.aside-p3:hover{
+    color: lemonchiffon;
+}
+
+#content {
+    width: 406px;
+    height: 256px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid blanchedalmond;
+    margin: 30px 170px 0 150px;
+}
+
+#img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img2 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+#intro {
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    top: 340px;
+    left: 0;
+}
+
+.aside-img{
+    width: 406px;
+    height: 256px;
+    overflow: hidden;
+    border: 3px solid blanchedalmond;
+    margin: 30px 170px 0 150px;
+}
+
+.img{
+    top: 0;
+    left: 0;
+}
+
+/**footer**/
+.footer{
+    display: flex;
+    position: relative;
+    height: 150px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    background-color: #262057;
+}
+
+.footer-div1{
+    position: absolute;
+    top: 10px;
+}
+
+.footer-p1{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 600;
+    color: lemonchiffon;
+    text-align: left;
+    padding: 25px 0px 0px 100px;
+    margin: 0;
+}
+
+.footer-p2{
+    font-family: Arial;
+    font-size: 15px;
+    color: lemonchiffon;
+    text-align: left;
+    padding: 0px 0px 0px 100px;
+    margin-top: 10px;
+}
+
+.footer-div2{
+    font-family: Arial, Microsoft Yahei;
+    text-align: left;
+    margin: -12px 100px 15px 970px;
+}
+
+.footer-a{
+    text-decoration: none;
+}
+
+.footer-yolo{
+    font-size: 30px;
+    color: khaki;
+    margin-bottom: 10px;
+}
+
+.footer-yolo-items{
+    font-size: 15px;
+    color: khaki;
+    padding-bottom: 3px;
+    margin: 0;
+}
+
+.footer-div3{
+    font-family: Arial, Microsoft Yahei;
+    color: khaki;
+    text-align: left;
+    margin-top: -12px;
+    margin-bottom: 15px;
+}
+
+.footer-yolo-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.footer img:hover{
+    width: 55px;
+    height: 55px;
+}
