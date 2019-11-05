@@ -1,0 +1,257 @@
+/**global style**/
+html{
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**header**/
+.header-h1{
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(240, 227, 54);
+    margin: 20px 0 10px 150px;
+    z-index: 1;
+}
+
+.header-img{
+    width: 500px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+/**signup**/
+.div-signup{
+    display: flex;
+    justify-content: center;
+}
+
+.ask{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(240, 227, 54);
+    margin-left: -900px;
+}
+
+.signup{
+    width: 110px;
+    height: 32px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(240, 227, 54);
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.signup:hover{
+    color: lemonchiffon;
+    border-bottom: 1.5px solid lemonchiffon;
+}
+
+/**div-a**/
+.div-a{
+    width: 400px;
+    margin-top: -750px;
+    margin-left: 530px;
+}
+
+/**article**/
+.article{
+    width: 800px;
+    text-align: center;
+}
+
+/**title**/
+.div-title{
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+
+.title{
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(240, 227, 54);
+    margin-top: 70px;
+}
+
+/**username/passward**/
+.div-up{
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+.username{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(240, 227, 54);
+    margin-bottom: 10px;
+}
+
+.password{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(240, 227, 54);
+    margin-bottom: 10px;
+}
+
+.input-div{
+    display: flex;
+    width: 650px;
+}
+
+.input-u{
+    width: 800px;
+    font-size: 30px;
+    color: lightskyblue;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid khaki;
+}
+
+.input-p{
+    width: 1000px;
+    font-size: 30px;
+    color: lightskyblue;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid khaki;
+}
+
+.input-div input:hover{
+    background-color: #404040;
+    border-bottom: 4px solid khaki
+}
+
+/**forget**/
+.div-forget{
+    display: flex;
+    width: 1000px;
+    height: 30px;
+}
+
+.forget{
+    width: 220px;
+    height: 27px;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 630px;
+    text-decoration: none;
+    color: rgb(240, 227, 54);
+}
+
+.forget:hover{
+    color: lemonchiffon;
+    border-bottom: 1.5px solid lemonchiffon;
+}
+
+/**login**/
+.div-login{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.btn{
+    width: 300px;
+    height: 70px;
+    background-color: #606060;
+    border: none;
+    border-radius: 74px;
+}
+
+.login{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.login:hover{
+    font-size: 50px;
+}
+
+/**via**/
+.div-via{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+
+.via-line{
+    justify-content: center;
+    margin-left: -60px;
+}
+
+.line{
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    border-top: 2.5px solid khaki ;
+}
+
+.via{
+    width: 200px;
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(240, 227, 54);
+    background-color: #181818;
+    margin-top: -58px;
+    margin-left: 190px;
+}
+
+/**via-icon**/
+.div-icon{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 270px;
+}
+
+.facebook{
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.google{
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.div-icon img:hover{
+    width: 105px;
+    height: 105px;
+}
